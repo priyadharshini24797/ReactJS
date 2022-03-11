@@ -1,0 +1,49 @@
+::-webkit-scrollbar{
+    display :none;
+}
+.container{
+    background-color: grey;
+
+    display:flex;
+    justify-content: center;
+height: 700px;
+align-items: center;
+}
+.login-form{
+    background-color:rgb(255, 255, 255,0.7);
+    padding:40px;
+    width:400px;
+}
+input[type="text"],[type="password"]{
+    padding:10px;
+    font-size:18px;
+}
+.flex-input{
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 10px;
+}
+label{
+    flex-basis: 130px;
+    margin-top:10px;
+    font-size: 20px;
+}
+input[type="Button"]
+{
+    width:100%;
+    font-size: 30px;
+    background-color: blueviolet;
+    border:none;
+    padding:10px;
+    color:white;
+    margin:20px 0;
+
+}
+input[type="Button"]:hover
+{
+    cursor:pointer;
+    background-color:rgb(98,23,168);
+}
+.flex container div{
+    flex:1;
+}
