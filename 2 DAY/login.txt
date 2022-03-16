@@ -1,0 +1,53 @@
+
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import  "./styles.css"
+function App(){
+  const myelement = (
+  <div className="App">
+    <div class="image">
+    <img src="https://t4.ftcdn.net/jpg/01/21/32/43/240_F_121324332_W1bUs7v0tW7pcbrAR3e6190pFJe0laQ8.jpg"/>
+    </div>
+    <h1>Login!!!</h1>
+    <form>
+<label>
+Username:
+</label>
+<input type="text" placeholder="UserName" name="username"/>
+
+  <div  className="password"> 
+  <label>
+  Password:
+  </label>
+  <input type="pswd" placeholder="Enter Password" name="password"/>
+
+  </div>
+  <button className="btn-name">Login</button>
+  <br/>
+  <a href="#" >Already login Username & password</a>
+  </form>
+  
+    </div>
+  );
+  
+
+
+ReactDOM.render(myelement, document.getElementById('root'));
+}
+
+
+export default App;
+
+
+
+
+index.js
+import React from "react";
+import ReactDOM from "react-dom";
+
+import App from "./App";
+import  "./styles.css"
+ReactDOM.render (<App/>,document.getElementById('root'));
+

@@ -1,0 +1,25 @@
+App {
+  font-family: ;
+  text-align: center;
+background-color:gray;
+line-height:2.9;
+padding:40px;
+color:blue;
+font-size:18px;
+
+}
+.btn-name{
+   display: block;
+width: 100%;
+border: none;
+background-color:#1ba94c ;
+font-family:'Open Sans';
+box-shadow:0 4px 12px rgba(16, 202, 81, 0.5) ;
+color: #ffffff !important ;
+padding: 5px 10px;
+font-size: 25px;
+cursor: pointer;
+text-align: center;
+position:relative;
+margin-right: 120px;
+}
